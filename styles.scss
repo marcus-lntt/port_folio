@@ -1,0 +1,309 @@
+body {
+    margin: 0px;
+    color: aliceblue;
+    background-color: #071123;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #071123;
+  
+    .photo_moi {
+      border-radius: 200px;
+      @media (min-width: 300px) {
+        height: 100px;
+      }
+      @media (min-width: 740px) {
+        height: 300px;
+      }
+    }
+  
+    .info_header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  
+      @media (max-width: 400px) {
+        width: 80px;
+      }
+    }
+    .info_header__nom {
+      font-weight: bold;
+      margin: 0px;
+      @media (min-width: 300px) {
+        font-size: 15pt;
+      }
+      @media (min-width: 740px) {
+        font-size: 40pt;
+      }
+    }
+    .info_header__text {
+      font-weight: normal;
+      @media (min-width: 300px) {
+        font-size: 8pt;
+      }
+      @media (min-width: 740px) {
+        font-size: 20pt;
+      }
+    }
+  }
+  
+  .body_presentation {
+    display: flex;
+    justify-content: space-around;
+  
+    .body_presentation_text {
+      @media (min-width: 300px) {
+        width: 50vw;
+        font-size: 5pt;
+      }
+      @media (min-width: 740px) {
+        width: 50vw;
+        font-size: 13pt;
+      }
+    }
+    .body_presentation_image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 30px;
+    }
+    .image_camputer {
+      
+      @media (min-width: 300px) {
+        width: 100;
+        height: 100;
+        border-radius: 10px;
+      }
+      @media (min-width: 740px) {
+        height: 300;
+        width: 400;
+        border-radius: 20px;
+      }
+    }
+  }
+  
+  .body_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    @media (min-width: 300px) {
+       margin-top: 20px;
+    }
+    @media (min-width: 700px) {
+      margin-top: 100px;
+   }
+  
+  
+    .body_contact_img {
+      @media (min-width: 300px) {
+        width: 300px;
+        height: 200px;
+      }
+      @media (min-width: 700px) {
+        width: 800px;
+        height: 500px;
+      }
+    }
+  
+    .container_contact_right {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      @media (min-width: 300px) {
+        height: 80px;
+        margin-top: 10;
+        @media (min-width: 740px) {
+          height: 200px;
+          margin-top: 25;
+        }
+      }
+      .linkedin_logo {
+        @media (min-width: 300px) {
+          width: 20px;
+          height: 20px;
+        }
+        @media (min-width: 740px) {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .github_logo {
+        @media (min-width: 300px) {
+          width: 40px;
+          height: 20px;
+        }
+        @media (min-width: 740px) {
+          width: 100px;
+          height: 40px;
+        }
+      }
+    }
+    .container_contact_left {
+      align-self: stretch;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  
+      @media (min-width: 300px) {
+        height: 80px;
+        margin-top: 10;
+      }
+      @media (min-width: 740px) {
+        height: 200px;
+        margin-top: 25;
+      }
+  
+      .phone_logo {
+        @media (min-width: 300px) {
+          width: 20px;
+          height: 20px;
+        }
+        @media (min-width: 740px) {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .mail_logo {
+        @media (min-width: 300px) {
+          width: 20px;
+          height: 20px;
+        }
+        @media (min-width: 740px) {
+          width: 40px;
+          height: 40px;
+        }
+      }
+    }
+  }
+  
+  .body_projet {
+    .projet_img {
+      display: flex;
+      justify-content: space-evenly;
+      width: 50vw;
+    }
+    .first_line {
+      display: flex;
+      justify-content: space-around;
+    }
+    .second_line {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 60px;
+    }
+  
+    .projet {
+      display: flex;
+      justify-content: center;
+      text-decoration: underline overline;
+  
+      @media (min-width: 300px) {
+        font-size: 10pt;
+      }
+      @media (min-width: 740px) {
+        font-size: 30pt;
+      }
+    }
+  
+    .see_projet {
+      font-style: oblique;
+      background-color: #c5c4c5;
+      color: black;
+      p{
+      text-decoration: none;
+      outline: none;
+      }
+   
+      text-align: center;
+      @media (min-width: 300px) {
+        font-size: 7pt;
+        height: 17pt;
+        border-radius: 5px;
+      }
+      @media (min-width: 740px) {
+        font-size: 15pt;
+        height: 25pt;
+        width: 140px;
+        border-radius: 10px;
+      }
+    }
+    .projet_preview {
+      @media (min-width: 300px) {
+        height: 80;
+        width: 80;
+        border-radius: 10px;
+      }
+      @media (min-width: 740px) {
+        height: 300;
+        width: 300;
+        border-radius: 20px;
+      }
+    }
+    .projet_info {
+      display: flex;
+      flex-direction: column;
+      @media (min-width: 300px) {
+        font-size: 5pt;
+        width: 100px;
+      }
+      @media (min-width: 740px) {
+        font-size: 15pt;
+        width: 250px;
+      }
+    }
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    .footer_linkedin_logo {
+      @media (min-width: 300px) {
+        height: 25px;
+      }
+      @media (min-width: 740px) {
+        height: 50px;
+      }
+    }
+  
+    .footer_github_logo {
+      @media (min-width: 300px) {
+        height: 30px;
+      }
+      @media (min-width: 740px) {
+        height: 50px;
+        
+      }
+    }
+  
+    .footer_right {
+      background-color: #c5c4c5;
+      text-align: center;
+      @media (min-width: 300px) {
+        font-size: 10pt;
+        border-radius: 15px;
+        height: 40px;
+      }
+      @media (min-width: 740px) {
+        font-size: 20pt;
+        border-radius: 25px;
+        height: 70px;
+        width: 230px;
+        margin-top: -30px;
+      }
+    }
+  }
+  
+  .cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
