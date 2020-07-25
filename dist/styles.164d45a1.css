@@ -4,261 +4,257 @@ body {
   background-color: #071123;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-.header {
+body .header {
   display: flex;
   justify-content: space-around;
   background-color: #071123;
 }
-.header .photo_moi {
+body .header .photo_moi {
   border-radius: 200px;
 }
 @media (min-width: 300px) {
-  .header .photo_moi {
+  body .header .photo_moi {
     height: 100px;
   }
 }
 @media (min-width: 740px) {
-  .header .photo_moi {
+  body .header .photo_moi {
     height: 300px;
   }
 }
-.header .info_header {
+body .header .info_header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 @media (max-width: 400px) {
-  .header .info_header {
+  body .header .info_header {
     width: 80px;
   }
 }
-.header .info_header__nom {
+body .header .info_header__nom {
   font-weight: bold;
   margin: 0px;
 }
 @media (min-width: 300px) {
-  .header .info_header__nom {
+  body .header .info_header__nom {
     font-size: 15pt;
   }
 }
 @media (min-width: 740px) {
-  .header .info_header__nom {
+  body .header .info_header__nom {
     font-size: 40pt;
   }
 }
-.header .info_header__text {
+body .header .info_header__text {
   font-weight: normal;
 }
 @media (min-width: 300px) {
-  .header .info_header__text {
+  body .header .info_header__text {
     font-size: 8pt;
   }
 }
 @media (min-width: 740px) {
-  .header .info_header__text {
+  body .header .info_header__text {
     font-size: 20pt;
   }
 }
-
-.body_presentation {
+body .body_presentation {
   display: flex;
   justify-content: space-around;
 }
 @media (min-width: 300px) {
-  .body_presentation .body_presentation_text {
+  body .body_presentation .body_presentation_text {
     width: 50vw;
     font-size: 5pt;
   }
 }
 @media (min-width: 740px) {
-  .body_presentation .body_presentation_text {
+  body .body_presentation .body_presentation_text {
     width: 50vw;
     font-size: 13pt;
   }
 }
-.body_presentation .body_presentation_image {
+body .body_presentation .body_presentation_image {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 30px;
 }
 @media (min-width: 300px) {
-  .body_presentation .image_camputer {
+  body .body_presentation .image_camputer {
     width: 100;
     height: 100;
     border-radius: 10px;
   }
 }
 @media (min-width: 740px) {
-  .body_presentation .image_camputer {
+  body .body_presentation .image_camputer {
     height: 300;
     width: 400;
     border-radius: 20px;
   }
 }
-
-.body_contact {
+body .body_contact {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media (min-width: 300px) {
-  .body_contact {
+  body .body_contact {
     margin-top: 20px;
   }
 }
 @media (min-width: 700px) {
-  .body_contact {
+  body .body_contact {
     margin-top: 100px;
   }
 }
 @media (min-width: 300px) {
-  .body_contact .body_contact_img {
+  body .body_contact .body_contact_img {
     width: 300px;
     height: 200px;
   }
 }
 @media (min-width: 700px) {
-  .body_contact .body_contact_img {
+  body .body_contact .body_contact_img {
     width: 800px;
     height: 500px;
   }
 }
-.body_contact .container_contact_right {
+body .body_contact .container_contact_right {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 @media (min-width: 300px) {
-  .body_contact .container_contact_right {
+  body .body_contact .container_contact_right {
     height: 80px;
     margin-top: 10;
   }
 }
 @media (min-width: 300px) and (min-width: 740px) {
-  .body_contact .container_contact_right {
+  body .body_contact .container_contact_right {
     height: 200px;
     margin-top: 25;
   }
 }
 @media (min-width: 300px) {
-  .body_contact .container_contact_right .linkedin_logo {
+  body .body_contact .container_contact_right .linkedin_logo {
     width: 20px;
     height: 20px;
   }
 }
 @media (min-width: 740px) {
-  .body_contact .container_contact_right .linkedin_logo {
+  body .body_contact .container_contact_right .linkedin_logo {
     width: 40px;
     height: 40px;
   }
 }
 @media (min-width: 300px) {
-  .body_contact .container_contact_right .github_logo {
+  body .body_contact .container_contact_right .github_logo {
     width: 40px;
     height: 20px;
   }
 }
 @media (min-width: 740px) {
-  .body_contact .container_contact_right .github_logo {
+  body .body_contact .container_contact_right .github_logo {
     width: 100px;
     height: 40px;
   }
 }
-.body_contact .container_contact_left {
+body .body_contact .container_contact_left {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 @media (min-width: 300px) {
-  .body_contact .container_contact_left {
+  body .body_contact .container_contact_left {
     height: 80px;
     margin-top: 10;
   }
 }
 @media (min-width: 740px) {
-  .body_contact .container_contact_left {
+  body .body_contact .container_contact_left {
     height: 200px;
     margin-top: 25;
   }
 }
 @media (min-width: 300px) {
-  .body_contact .container_contact_left .phone_logo {
+  body .body_contact .container_contact_left .phone_logo {
     width: 20px;
     height: 20px;
   }
 }
 @media (min-width: 740px) {
-  .body_contact .container_contact_left .phone_logo {
+  body .body_contact .container_contact_left .phone_logo {
     width: 40px;
     height: 40px;
   }
 }
 @media (min-width: 300px) {
-  .body_contact .container_contact_left .mail_logo {
+  body .body_contact .container_contact_left .mail_logo {
     width: 20px;
     height: 20px;
   }
 }
 @media (min-width: 740px) {
-  .body_contact .container_contact_left .mail_logo {
+  body .body_contact .container_contact_left .mail_logo {
     width: 40px;
     height: 40px;
   }
 }
-
-.body_projet .projet_img {
+body .body_projet .projet_img {
   display: flex;
   justify-content: space-evenly;
   width: 50vw;
 }
-.body_projet .first_line {
+body .body_projet .first_line {
   display: flex;
   justify-content: space-around;
 }
-.body_projet .second_line {
+body .body_projet .second_line {
   display: flex;
   justify-content: space-around;
   margin-top: 60px;
 }
-.body_projet .projet {
+body .body_projet .projet {
   display: flex;
   justify-content: center;
   text-decoration: underline overline;
 }
 @media (min-width: 300px) {
-  .body_projet .projet {
+  body .body_projet .projet {
     font-size: 10pt;
   }
 }
 @media (min-width: 740px) {
-  .body_projet .projet {
+  body .body_projet .projet {
     font-size: 30pt;
   }
 }
-.body_projet .see_projet {
+body .body_projet .see_projet {
   font-style: oblique;
   background-color: #c5c4c5;
   color: black;
   text-align: center;
 }
-.body_projet .see_projet p {
+body .body_projet .see_projet p {
   text-decoration: none;
   outline: none;
 }
 @media (min-width: 300px) {
-  .body_projet .see_projet {
+  body .body_projet .see_projet {
     font-size: 7pt;
     height: 17pt;
     border-radius: 5px;
   }
 }
 @media (min-width: 740px) {
-  .body_projet .see_projet {
+  body .body_projet .see_projet {
     font-size: 15pt;
     height: 25pt;
     width: 140px;
@@ -266,74 +262,73 @@ body {
   }
 }
 @media (min-width: 300px) {
-  .body_projet .projet_preview {
+  body .body_projet .projet_preview {
     height: 80;
     width: 80;
     border-radius: 10px;
   }
 }
 @media (min-width: 740px) {
-  .body_projet .projet_preview {
+  body .body_projet .projet_preview {
     height: 300;
     width: 300;
     border-radius: 20px;
   }
 }
-.body_projet .projet_info {
+body .body_projet .projet_info {
   display: flex;
   flex-direction: column;
 }
 @media (min-width: 300px) {
-  .body_projet .projet_info {
+  body .body_projet .projet_info {
     font-size: 5pt;
     width: 100px;
   }
 }
 @media (min-width: 740px) {
-  .body_projet .projet_info {
+  body .body_projet .projet_info {
     font-size: 15pt;
     width: 250px;
   }
 }
-
-.footer {
+body .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 @media (min-width: 300px) {
-  .footer .footer_linkedin_logo {
+  body .footer .footer_linkedin_logo {
     height: 25px;
   }
 }
 @media (min-width: 740px) {
-  .footer .footer_linkedin_logo {
+  body .footer .footer_linkedin_logo {
     height: 50px;
   }
 }
 @media (min-width: 300px) {
-  .footer .footer_github_logo {
+  body .footer .footer_github_logo {
     height: 30px;
   }
 }
 @media (min-width: 740px) {
-  .footer .footer_github_logo {
+  body .footer .footer_github_logo {
     height: 50px;
   }
 }
-.footer .footer_right {
+body .footer .footer_right {
   background-color: #c5c4c5;
   text-align: center;
 }
 @media (min-width: 300px) {
-  .footer .footer_right {
+  body .footer .footer_right {
     font-size: 10pt;
     border-radius: 15px;
     height: 40px;
   }
 }
 @media (min-width: 740px) {
-  .footer .footer_right {
+  body .footer .footer_right {
     font-size: 20pt;
     border-radius: 25px;
     height: 70px;
@@ -341,8 +336,7 @@ body {
     margin-top: -30px;
   }
 }
-
-.cv {
+body .cv {
   display: flex;
   justify-content: center;
   align-items: center;
