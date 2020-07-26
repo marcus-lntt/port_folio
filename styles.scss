@@ -19,6 +19,9 @@ body {
     @media (min-width: 740px) {
       height: 300px;
     }
+  }
+  
+  
   .info_header {
     display: flex;
     justify-content: center;
@@ -28,8 +31,9 @@ body {
     @media (max-width: 400px) {
       width: 80px;
     }
-  }
-  .info_header__nom {
+}
+  
+.info_header__nom {
     font-weight: bold;
     margin: 0px;
     @media (min-width: 300px) {
@@ -39,6 +43,7 @@ body {
       font-size: 40pt;
     }
   }
+
   .info_header__text {
     font-weight: normal;
     @media (min-width: 300px) {
@@ -48,12 +53,12 @@ body {
       font-size: 20pt;
     }
   }
-}
+
 
 .body_presentation {
   display: flex;
   justify-content: space-around;
-
+}
   .body_presentation_text {
     @media (min-width: 300px) {
       width: 50vw;
@@ -64,12 +69,15 @@ body {
       font-size: 13pt;
     }
   }
+
+
   .body_presentation_image {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
   }
+  
   .image_camputer {
     @media (min-width: 300px) {
       width: 100;
@@ -82,7 +90,7 @@ body {
       border-radius: 20px;
     }
   }
-}
+
 
 .body_contact {
   display: flex;
@@ -95,7 +103,7 @@ body {
   @media (min-width: 700px) {
     margin-top: 100px;
   }
-
+}
   .body_contact_img {
     @media (min-width: 300px) {
       width: 300px;
@@ -115,6 +123,7 @@ body {
     @media (min-width: 300px) {
       height: 80px;
       margin-top: 10;
+     }
       @media (min-width: 740px) {
         height: 200px;
         margin-top: 25px;
@@ -140,7 +149,7 @@ body {
         height: 40px;
       }
     }
-  }
+  
   .container_contact_left {
     align-self: stretch;
     display: flex;
@@ -155,6 +164,7 @@ body {
       height: 200px;
       margin-top: 25;
     }
+ }
 
     .phone_logo {
       @media (min-width: 300px) {
@@ -176,10 +186,10 @@ body {
         height: 40px;
       }
     }
-  }
-}
+  
 
-.body_projet {
+
+
   .projet_img {
     display: flex;
     justify-content: space-evenly;
@@ -199,7 +209,6 @@ body {
     display: flex;
     justify-content: center;
     text-decoration: underline overline;
-
     @media (min-width: 300px) {
       font-size: 10pt;
     }
@@ -211,25 +220,15 @@ body {
   .see_projet {
     font-style: oblique;
     background-color: #c5c4c5;
-    color: black;
+    color: black; 
+    text-align: center;
+    }
     p {
       text-decoration: none;
       outline: none;
     }
 
-    text-align: center;
-    @media (min-width: 300px) {
-      font-size: 7pt;
-      height: 17pt;
-      border-radius: 5px;
-    }
-    @media (min-width: 740px) {
-      font-size: 15pt;
-      height: 25pt;
-      width: 140px;
-      border-radius: 10px;
-    }
-  }
+  
   .projet_preview {
     @media (min-width: 300px) {
       height: 80;
@@ -254,12 +253,13 @@ body {
       width: 250px;
     }
   }
-}
+
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
 
   .footer_linkedin_logo {
     @media (min-width: 300px) {
@@ -295,7 +295,7 @@ body {
       margin-top: -30px;
     }
   }
-}
+
 
 .cv {
   display: flex;
