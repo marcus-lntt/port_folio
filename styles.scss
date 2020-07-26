@@ -278,6 +278,24 @@ body {
   color: black;
   text-align: center;
 }
+@media (min-width: 300px) {
+    .see_projet{ 
+        font-size: 7pt;
+    height: 17pt;
+    border-radius: 5px;
+    } 
+  }
+
+  
+  @media (min-width: 740px) {
+    .see_projet{
+    font-size: 15pt;
+    height: 25pt;
+    width: 140px;
+    border-radius: 10px;
+    }
+}
+
 p {
   text-decoration: none;
   outline: none;
@@ -349,7 +367,7 @@ p {
 }
 
 .footer_right {
-  background-color: #c5c4c5;
+  background-color: #182599;
   text-align: center;
 }
   @media (min-width: 300px) {
