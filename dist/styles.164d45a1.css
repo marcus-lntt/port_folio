@@ -14,6 +14,7 @@ body {
 .photo_moi {
   border-radius: 200px;
 }
+
 @media (min-width: 300px) {
   .photo_moi {
     height: 100px;
@@ -24,23 +25,23 @@ body {
     height: 300px;
   }
 }
-
 .info_header {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 @media (max-width: 400px) {
   .info_header {
     width: 80px;
   }
 }
-
 .info_header__nom {
   font-weight: bold;
   margin: 0px;
 }
+
 @media (min-width: 300px) {
   .info_header__nom {
     font-size: 15pt;
@@ -51,10 +52,10 @@ body {
     font-size: 40pt;
   }
 }
-
 .info_header__text {
   font-weight: normal;
 }
+
 @media (min-width: 300px) {
   .info_header__text {
     font-size: 8pt;
@@ -65,7 +66,6 @@ body {
     font-size: 20pt;
   }
 }
-
 .body_presentation {
   display: flex;
   justify-content: space-around;
@@ -75,15 +75,16 @@ body {
   .body_presentation_text {
     width: 50vw;
     font-size: 5pt;
+    text-align: center;
   }
 }
 @media (min-width: 740px) {
   .body_presentation_text {
     width: 50vw;
     font-size: 13pt;
+    text-align: center;
   }
 }
-
 .body_presentation_image {
   display: flex;
   justify-content: center;
@@ -105,12 +106,12 @@ body {
     border-radius: 20px;
   }
 }
-
 .body_contact {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 @media (min-width: 300px) {
   .body_contact {
     margin-top: 20px;
@@ -121,7 +122,6 @@ body {
     margin-top: 100px;
   }
 }
-
 @media (min-width: 300px) {
   .body_contact_img {
     width: 300px;
@@ -134,13 +134,13 @@ body {
     height: 500px;
   }
 }
-
 .container_contact_right {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 @media (min-width: 300px) {
   .container_contact_right {
     height: 80px;
@@ -153,7 +153,6 @@ body {
     margin-top: 25px;
   }
 }
-
 @media (min-width: 300px) {
   .linkedin_logo {
     width: 20px;
@@ -166,7 +165,6 @@ body {
     height: 40px;
   }
 }
-
 @media (min-width: 300px) {
   .github_logo {
     width: 40px;
@@ -179,13 +177,13 @@ body {
     height: 40px;
   }
 }
-
 .container_contact_left {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
+
 @media (min-width: 300px) {
   .container_contact_left {
     height: 80px;
@@ -195,10 +193,9 @@ body {
 @media (min-width: 740px) {
   .container_contact_left {
     height: 200px;
-    margin-top: 25;
+    margin-top: 25px;
   }
 }
-
 @media (min-width: 300px) {
   .phone_logo {
     width: 20px;
@@ -211,7 +208,6 @@ body {
     height: 40px;
   }
 }
-
 @media (min-width: 300px) {
   .mail_logo {
     width: 20px;
@@ -224,7 +220,6 @@ body {
     height: 40px;
   }
 }
-
 .projet_img {
   display: flex;
   justify-content: space-evenly;
@@ -247,6 +242,7 @@ body {
   justify-content: center;
   text-decoration: underline overline;
 }
+
 @media (min-width: 300px) {
   .projet {
     font-size: 10pt;
@@ -257,14 +253,28 @@ body {
     font-size: 30pt;
   }
 }
-
 .see_projet {
   font-style: oblique;
-  background-color: #c5c4c5;
+  background-color: #202979;
   color: black;
   text-align: center;
 }
 
+@media (min-width: 300px) {
+  .see_projet {
+    font-size: 7pt;
+    height: 17pt;
+    border-radius: 5px;
+  }
+}
+@media (min-width: 740px) {
+  .see_projet {
+    font-size: 15pt;
+    height: 25pt;
+    width: 140px;
+    border-radius: 10px;
+  }
+}
 p {
   text-decoration: none;
   outline: none;
@@ -284,11 +294,11 @@ p {
     border-radius: 20px;
   }
 }
-
 .projet_info {
   display: flex;
   flex-direction: column;
 }
+
 @media (min-width: 300px) {
   .projet_info {
     font-size: 5pt;
@@ -301,7 +311,6 @@ p {
     width: 250px;
   }
 }
-
 .footer {
   display: flex;
   flex-direction: row;
@@ -318,7 +327,6 @@ p {
     height: 50px;
   }
 }
-
 @media (min-width: 300px) {
   .footer_github_logo {
     height: 30px;
@@ -329,11 +337,11 @@ p {
     height: 50px;
   }
 }
-
 .footer_right {
-  background-color: #c5c4c5;
   text-align: center;
+  color: white;
 }
+
 @media (min-width: 300px) {
   .footer_right {
     font-size: 10pt;
@@ -350,11 +358,14 @@ p {
     margin-top: -30px;
   }
 }
-
 .cv {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a {
+  color: white;
 }
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */
