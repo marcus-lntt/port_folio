@@ -14,12 +14,21 @@ body {
 .photo_moi {
     border-radius: 200px;
     @media (min-width: 300px) {
-      height: 100px;
-    }
+        .photo_moi {
+            height: 100px
+        }
+    }  
     @media (min-width: 740px) {
-      height: 300px;
+        .photo_moi {
+            height: 300px;
+        }
     }
-  }
+}
+
+
+
+
+    
   
   
   .info_header {
