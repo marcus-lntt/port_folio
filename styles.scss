@@ -111,96 +111,133 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+  
+@media (min-width: 300px) {
+    .body_contact {
+        margin-top: 20px;
+  }
+ }
+  
+ @media (min-width: 700px) {
+    .body_contact {
+        margin-top: 100px;
+  }
+}
 
   @media (min-width: 300px) {
-    margin-top: 20px;
-  }
-  @media (min-width: 700px) {
-    margin-top: 100px;
-  }
-}
-.body_contact_img {
-  @media (min-width: 300px) {
+    .body_contact_img {
     width: 300px;
     height: 200px;
-  }
-  @media (min-width: 700px) {
-    width: 800px;
-    height: 500px;
-  }
+    }
 }
+  @media (min-width: 700px) {
+    .body_contact_img { 
+    width: 800px;
+    height: 500px;  
+    }
+}
+
 
 .container_contact_right {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  @media (min-width: 300px) {
-    height: 80px;
-    margin-top: 10;
-  }
-  @media (min-width: 740px) {
-    height: 200px;
-    margin-top: 25px;
-  }
 }
-.linkedin_logo {
+
   @media (min-width: 300px) {
+    .container_contact_right{
+      height: 80px;
+    margin-top: 10;  
+    }  
+}
+  @media (min-width: 740px) {
+    .container_contact_right{
+     height: 200px;
+    margin-top: 25px;   
+    }
+}
+
+
+  @media (min-width: 300px) {
+    .linkedin_logo {
     width: 20px;
-    height: 20px;
-  }
-  @media (min-width: 740px) {
-    width: 40px;
-    height: 40px;
-  }
+    height: 20px; 
+    }
 }
-.github_logo {
+  @media (min-width: 740px) {
+    .linkedin_logo {
+    width: 40px;
+    height: 40px; 
+    }
+}
+
+
   @media (min-width: 300px) {
+    .github_logo{
     width: 40px;
     height: 20px;
+    }
+    
   }
   @media (min-width: 740px) {
+    .github_logo{
     width: 100px;
-    height: 40px;
-  }
+    height: 40px; 
+    }
 }
+
 
 .container_contact_left {
   align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
 
   @media (min-width: 300px) {
+    .container_contact_left{
     height: 80px;
-    margin-top: 10;
-  }
+    margin-top: 10;  
+    }
+}
   @media (min-width: 740px) {
+    .container_contact_left{
     height: 200px;
-    margin-top: 25;
-  }
+    margin-top: 25px; 
+    }
 }
 
-.phone_logo {
+
+
   @media (min-width: 300px) {
+    .phone_logo {
     width: 20px;
     height: 20px;
+    }
   }
   @media (min-width: 740px) {
+    .phone_logo {
     width: 40px;
     height: 40px;
-  }
+    }
 }
-.mail_logo {
+
+
   @media (min-width: 300px) {
+    .mail_logo {
     width: 20px;
     height: 20px;
+     }
   }
   @media (min-width: 740px) {
+    .mail_logo{
     width: 40px;
-    height: 40px;
+    height: 40px; 
+    } 
   }
-}
+
 
 .projet_img {
   display: flex;
@@ -221,13 +258,19 @@ body {
   display: flex;
   justify-content: center;
   text-decoration: underline overline;
+}
+
   @media (min-width: 300px) {
-    font-size: 10pt;
+    .projet{ 
+        font-size: 10pt; 
+    } 
   }
   @media (min-width: 740px) {
-    font-size: 30pt;
+    .projet{ 
+        font-size: 30pt; 
+    } 
   }
-}
+
 
 .see_projet {
   font-style: oblique;
@@ -240,30 +283,39 @@ p {
   outline: none;
 }
 
-.projet_preview {
+
   @media (min-width: 300px) {
+    .projet_preview {
     height: 80;
     width: 80;
     border-radius: 10px;
+     }
   }
   @media (min-width: 740px) {
-    height: 300;
+    .projet_preview{
+        height: 300;
     width: 300;
     border-radius: 20px;
-  }
+    }
 }
+
 .projet_info {
   display: flex;
   flex-direction: column;
+}
   @media (min-width: 300px) {
+    .projet_info {
     font-size: 5pt;
     width: 100px;
+    }
   }
   @media (min-width: 740px) {
+    .projet_info{
     font-size: 15pt;
     width: 250px;
-  }
+    }
 }
+
 
 .footer {
   display: flex;
@@ -271,40 +323,52 @@ p {
   justify-content: space-between;
 }
 
-.footer_linkedin_logo {
+ 
   @media (min-width: 300px) {
+   .footer_linkedin_logo{ 
     height: 25px;
+    } 
   }
   @media (min-width: 740px) {
-    height: 50px;
+    .footer_linkedin_logo{
+        height: 50px; 
+    } 
   }
-}
 
-.footer_github_logo {
+
+ 
   @media (min-width: 300px) {
-    height: 30px;
+   .footer_github_logo{
+       height: 30px; 
+    } 
   }
   @media (min-width: 740px) {
-    height: 50px;
+    .footer_github_logo{
+        height: 50px;
   }
 }
 
 .footer_right {
   background-color: #c5c4c5;
   text-align: center;
+}
   @media (min-width: 300px) {
-    font-size: 10pt;
+    .footer_right {
+        font-size: 10pt;
     border-radius: 15px;
     height: 40px;
+    } 
   }
   @media (min-width: 740px) {
+    .footer_right {
     font-size: 20pt;
     border-radius: 25px;
     height: 70px;
     width: 230px;
-    margin-top: -30px;
-  }
+    margin-top: -30px; 
+    } 
 }
+
 
 .cv {
   display: flex;
