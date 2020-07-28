@@ -9,6 +9,19 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #071123;
+  align-items: center;
+}
+
+@media (min-width: 300px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.photo {
+  display: flex;
+  align-content: center;
+  align-items: center;
 }
 
 .photo_moi {
@@ -34,7 +47,8 @@ body {
 
 @media (max-width: 400px) {
   .info_header {
-    width: 80px;
+    width: 150px;
+    text-align: center;
   }
 }
 .info_header__nom {
@@ -71,6 +85,17 @@ body {
   justify-content: space-around;
 }
 
+@media (min-width: 300px) {
+  .body_presentation {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (min-width: 700px) {
+  .body_presentation {
+    flex-direction: row;
+  }
+}
 @media (min-width: 300px) {
   .body_presentation_text {
     width: 50vw;
