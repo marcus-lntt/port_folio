@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/marcus-lntt/port_folio#readme",
   "dependencies": {
-    "parcel": "^1.12.4"
+    "parcel": "^2.8.3"
   },
   "devDependencies": {
     "sass": "^1.26.10"
